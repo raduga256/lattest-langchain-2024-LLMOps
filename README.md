@@ -15,3 +15,8 @@ Create a new virtual env with conda
 3. pip install requirements.txt
 
 4. Loading the environment variables from .env file
+
+## Creating the RAG using Langchain Expression Language - LECL
+You will need these two high level packages always whenever you need to perform Basic RAG Implementation with LCEL
+- from langchain_core.output_parsers import StrOutputParser
+- from langchain_core.runnables import RunnablePassthrough
