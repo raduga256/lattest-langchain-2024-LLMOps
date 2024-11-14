@@ -20,3 +20,10 @@ Create a new virtual env with conda
 You will need these two high level packages always whenever you need to perform Basic RAG Implementation with LCEL
 - from langchain_core.output_parsers import StrOutputParser
 - from langchain_core.runnables import RunnablePassthrough
+
+
+## LangChain: Langchain Expression Language (LCEL) Advance
+
+## RunnableLamda
+* To use a custom function inside a LCEL chain we need to wrap it up with a RunnableLamda
+* Let's define a very simple function to create Russian lastnames
