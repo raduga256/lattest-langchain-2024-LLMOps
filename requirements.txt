@@ -9,3 +9,7 @@ pypdf == 4.3.1
 wikipedia==1.4.0
 langchain-chroma==0.1.2     # Vector DB for chroma
 langchain_ollama # ollama for embeddings
+langserve==0.2.2
+langgraph==0.1.19
+langchainhub # used to automatically
+ 
