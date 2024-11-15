@@ -27,3 +27,9 @@ You will need these two high level packages always whenever you need to perform 
 ## RunnableLamda
 * To use a custom function inside a LCEL chain we need to wrap it up with a RunnableLamda
 * Let's define a very simple function to create Russian lastnames
+
+## LangChain: Memory - Can LLM Apps Remember?
+
+
+## Conversation Buffer Window Memory
+Similar to the previous one, but you can limit the number of conversational exchanges stored in memory. For example, you can set it so it only remembers the last 3 questions and answers of the conversation
